@@ -1,9 +1,20 @@
-#country-grid{
+#flag-grid{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
 }
-
-#country-grid > div > img {
-    width: 100%;
+.country-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 128, 128, 0.10);
+    border-radius: 5%;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.50);
+}
+.flag-img {
+    height: 200px;
+    box-shadow: 0 0 5px 0.5px rgba(0, 0, 0, 0.30);
+    margin-bottom: 25px;
 }
