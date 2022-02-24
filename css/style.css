@@ -1,0 +1,9 @@
+#country-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+}
+
+#country-grid > div > img {
+    width: 100%;
+}
